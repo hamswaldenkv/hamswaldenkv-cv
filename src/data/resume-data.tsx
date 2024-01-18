@@ -20,102 +20,110 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
+  name: "Hams KUVELUKA",
+  initials: "HAMS",
+  location: "Kinshasa, Congo-Kinshasa, CET",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Full Stack Engineer focused on building digital products & customer experiences",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Full time React developer and React Native Experienced developer. I focus on mobile front-end development with React-Native framework and web front-end development with React.js/Redux/next.js, JavaScript, Typescript, and other JavaScript frameworks & libraries. I have over 3 years of experience in working remotely with startups all around the world.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/11094772?v=4",
+  personalWebsiteUrl: "https://hamswaldenkv.vercel.app",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "hamswaldenkv@gmail.com",
+    tel: "+243811273503",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/hamswaldenkv",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/hamswaldenkv/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/hamswaldenkv",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "ISIPA Matadi",
+      degree: "Bachelor's Degree in Managment IT",
+      start: "2011",
+      end: "2013",
     },
   ],
   work: [
     {
-      company: "Parabol",
+      company: "Freelance",
       link: "https://parabol.co",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "Senior Full Stack Developer (SAAS)",
       logo: ParabolLogo,
       start: "2021",
       end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Working currently on various SAAS projects : Ride sharing saas, Talent recruiting saas, Video Streaming Plateform (Vod, Live & Fast), Payment saas platform, collection of parking taxes & tolls",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "LinksAllen → JobParc.com",
+      link: "https://linksallen.com",
+      badges: [],
+      title: "FullStack Developer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2020",
+      end: "2018",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Worked as fullstack developer on creating a talent recruiting saas platform",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Havas Africa RDC",
+      link: "https://www.havas.fr",
+      badges: [],
+      title: "Regional Digital Manager",
+      logo: JojoMobileLogo,
+      start: "2016",
+      end: "2018",
+      description:
+        "Developed and managed all regional marketing digital campaigns. Developed creative concepts and designs for a variety of projects, including websites, prints collateral",
+    },
+    {
+      company: "ProxyTech Congo",
+      link: "https://www.proxytech.com",
       badges: [],
       title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      start: "2016",
+      end: "2019",
+      description: "Creating and testing a mobile photo printing application",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
+    "Reac-Native",
     "React/Next.js/Remix",
     "Node.js",
+    "GO",
+    "PHP",
+    "Python",
+    "Wordpress Development",
+    "Amazon Web Services",
+    "Google Cloud Platform",
     "GraphQL",
     "Relay",
     "WebRTC",
+    "Digital Marketing",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "DGTCP.cd",
       techStack: [
         "Side Project",
         "TypeScript",
@@ -124,155 +132,87 @@ export const RESUME_DATA = {
         "GraphQL",
         "WebRTC",
       ],
-      description: "A platform to build and grow your online business",
+      description:
+        "Official website of Direction Générale de la Comptabilité Et Trésor Public - Congo Kinshasa",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "dgtcp.cd",
+        href: "https://dgtcp.cd/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
+      title: "Congarts TV",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Android",
+        "iOS",
+        "Node js",
+      ],
+      description: "VOD & Live video streaming plateform",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "congarts.tv",
+        href: "https://congarts.tv/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Kagho Drive",
+      techStack: [
+        "Side Project",
+        "React-Native",
+        "Next.js",
+        "MDX",
+        "PHP",
+        "Laravel",
+      ],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Kagho Chauffeur is an app that connects drivers with more passengers for a safe ride anywhere, anytime and boost the drivers'earnings",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "play.google.com",
+        href: "https://play.google.com/store/apps/details?id=com.kagho.drive&hl=fr&gl=US",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "ITM Africa Recrutement",
+      techStack: ["Side Project", "Next.js", "Laraval"],
       description:
         "Minimalist calendars, habit trackers and planners generator",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
+        label: "recrutement.itmafrica.com",
         href: "https://useminimal.com/",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+      title: "Yoka",
+      techStack: ["Side Project", "Next.js", "React", "GO", "Node.js"],
+      description: "Music distribution & streaming platform",
       logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "yoka.cd",
+        href: "https://yoka.cd/",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
+      title: "TaxePay.cd",
+      techStack: ["Side Project", "TypeScript", "Next.js", "PostgreSql"],
+      description:
+        "Collection and security of parking taxes and tollsMusic distribution & streaming platform",
       logo: YearProgressLogo,
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "taxespay.cd",
+        href: "https://taxespay-cd.vercel.app",
       },
     },
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Pay Inside",
+      techStack: ["Lead React Developer", "Next.js", "Python", "Node.js"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
+        "collect payments from your customers in complete security and also benefit from a traceability and reporting system for all your collections",
       logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;

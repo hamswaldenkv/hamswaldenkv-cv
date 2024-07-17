@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Kinshasa, Congo-Kinshasa, CET",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Full Stack Engineer focused on building digital products & customer experiences",
+    "Ingénieur Full Stack axé sur la création de produits numériques et d'expériences client",
   summary:
-    "Full time React developer and React Native Experienced developer. I focus on mobile front-end development with React-Native framework and web front-end development with React.js/Redux/next.js, JavaScript, Typescript, and other JavaScript frameworks & libraries. I have over 3 years of experience in working remotely with startups all around the world.",
+    "Développeur React à temps plein et développeur expérimenté React Native. Je me concentre sur le développement front-end mobile avec le framework React-Native et le développement front-end web avec React.js/Redux/next.js, JavaScript, Typescript et d'autres frameworks et bibliothèques JavaScript. J'ai plus de 3 ans d'expérience dans le travail à distance avec des startups du monde entier.",
   avatarUrl: "https://avatars.githubusercontent.com/u/11094772?v=4",
   personalWebsiteUrl: "https://hamswaldenkv.vercel.app",
   contact: {
@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2024",
       description:
-        "Working currently on various SAAS projects : Ride sharing saas, Talent recruiting saas, Video Streaming Plateform (Vod, Live & Fast), Payment saas platform, collection of parking taxes & tolls",
+        "Travaille actuellement sur divers projets SAAS : Saas de covoiturage, Recrutement de talents saas, Plateforme de Streaming Vidéo (Vod, Live & Fast), Plateforme saas de paiement, collecte des taxes et péages de stationnement",
     },
     {
       company: "LinksAllen → JobParc.com",
@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2018",
       description:
-        "Worked as fullstack developer on creating a talent recruiting saas platform",
+        "Travail en tant que développeur fullstack sur la création d'une plateforme Saas de recrutement de talents",
     },
     {
       company: "Havas Africa RDC",
@@ -91,7 +91,7 @@ export const RESUME_DATA = {
       start: "2016",
       end: "2018",
       description:
-        "Developed and managed all regional marketing digital campaigns. Developed creative concepts and designs for a variety of projects, including websites, prints collateral",
+        "Développer et gérer toutes les campagnes marketing numériques régionales. Développement de concepts créatifs et de conceptions pour une variété de projets, y compris des sites Web, applications mobiles et des documents imprimés.",
     },
     {
       company: "ProxyTech Congo",
@@ -101,7 +101,8 @@ export const RESUME_DATA = {
       logo: NSNLogo,
       start: "2016",
       end: "2019",
-      description: "Creating and testing a mobile photo printing application",
+      description:
+        "Création et test d'une application mobile d'impression de photos",
     },
   ],
   skills: [
@@ -133,7 +134,7 @@ export const RESUME_DATA = {
         "WebRTC",
       ],
       description:
-        "Official website of Direction Générale de la Comptabilité Et Trésor Public - Congo Kinshasa",
+        "Site officiel de la Direction Générale de la Comptabilité Et Trésor Public - Congo Kinshasa",
       logo: ConsultlyLogo,
       link: {
         label: "dgtcp.cd",
@@ -150,7 +151,7 @@ export const RESUME_DATA = {
         "iOS",
         "Node js",
       ],
-      description: "VOD & Live video streaming plateform",
+      description: "Plateforme de streaming vidéo VOD et Live",
       logo: MonitoLogo,
       link: {
         label: "congarts.tv",
@@ -168,7 +169,7 @@ export const RESUME_DATA = {
         "Laravel",
       ],
       description:
-        "Kagho Chauffeur is an app that connects drivers with more passengers for a safe ride anywhere, anytime and boost the drivers'earnings",
+        "Kagho Drive est une application qui connecte les conducteurs avec plus de passagers pour un trajet en toute sécurité n'importe où et à tout moment et augmente les revenus des conducteurs",
       logo: JarockiMeLogo,
       link: {
         label: "play.google.com",
@@ -178,18 +179,17 @@ export const RESUME_DATA = {
     {
       title: "ITM Africa Recrutement",
       techStack: ["Side Project", "Next.js", "Laraval"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
+      description: "Portail de récrutement en ligne",
       logo: Minimal,
       link: {
         label: "recrutement.itmafrica.com",
-        href: "https://useminimal.com/",
+        href: "https://recrutement.itmafrica.com/",
       },
     },
     {
       title: "Yoka",
       techStack: ["Side Project", "Next.js", "React", "GO", "Node.js"],
-      description: "Music distribution & streaming platform",
+      description: "Plateforme de distribution et de streaming musical",
       logo: BarepapersLogo,
       link: {
         label: "yoka.cd",
@@ -198,9 +198,15 @@ export const RESUME_DATA = {
     },
     {
       title: "TaxePay.cd",
-      techStack: ["Side Project", "TypeScript", "Next.js", "PostgreSql"],
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "PostgreSql",
+        "Android",
+      ],
       description:
-        "Collection and security of parking taxes and tollsMusic distribution & streaming platform",
+        "Collectez et sécurisez des taxes de stationnement et bénéficiez également d'un système de traçabilité et de reporting pour toutes vos collectes pour le gouvernement provincial",
       logo: YearProgressLogo,
       link: {
         label: "taxespay.cd",
@@ -208,11 +214,23 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Pay Inside",
-      techStack: ["Lead React Developer", "Next.js", "Python", "Node.js"],
+      title: "Ekonzostream.com",
+      techStack: [
+        "Lead React Developer",
+        "Next.js",
+        "Python",
+        "Node.js",
+        "PostgreSql",
+        "React.js",
+        "React-Native",
+      ],
       description:
-        "collect payments from your customers in complete security and also benefit from a traceability and reporting system for all your collections",
+        "Ekonzostream est une plateforme de streaming et de divertissement qui rapproche les artistes et leurs fans à travers des contenus originaux et dans la meilleure qualité audio disponible",
       logo: AmbitLogo,
+      link: {
+        label: "ekonzostream.com",
+        href: "https://ekonzostream.com",
+      },
     },
   ],
 } as const;

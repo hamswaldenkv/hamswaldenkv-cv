@@ -61,6 +61,39 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Hotêl de ville de Kinshasa",
+      link: "https://smart-trans.online",
+      badges: ["Freelance"],
+      title: "Lead IT",
+      logo: ParabolLogo,
+      start: "2021",
+      end: "2025",
+      description:
+        "Mise en place du système de collecte des recettes de taxes des parkings des biens et parkings de passagers",
+    },
+    {
+      company: "Gouvernement provincial du Kongo Central",
+      link: "https://smart-trans.online",
+      badges: [],
+      title: "Lead IT",
+      logo: ParabolLogo,
+      start: "2024",
+      end: "2025",
+      description:
+        "Mise en place du système d'identification des motards de la province, livraison des plaques et cartes roses",
+    },
+    {
+      company: "Gouvernement provincial du Kinshasa",
+      link: "https://smart-trans.online",
+      badges: [],
+      title: "Lead IT",
+      logo: ParabolLogo,
+      start: "2021",
+      end: "2025",
+      description:
+        "Mise en place du système de gestion de livraison des plaques et cartes roses pour motards",
+    },
+    {
       company: "Freelance",
       link: "https://parabol.co",
       badges: ["Remote"],

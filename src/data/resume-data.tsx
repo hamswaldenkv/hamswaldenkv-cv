@@ -27,9 +27,9 @@ export const RESUME_DATA = {
   about:
     "Ingénieur Full Stack axé sur la création de produits numériques et d'expériences client",
   summary:
-    "Développeur Frontend passionné avec plus de [X années] d’expérience, spécialisé dans l’écosystème React pour le web et React Native pour le mobile. Je conçois des interfaces performantes, fluides et orientées utilisateur, tout en intégrant les bonnes pratiques d’architecture logicielle. Ma polyvalence me permet également d’intervenir efficacement sur des projets backend en Python (FastAPI, Django) et Java, ainsi que sur des environnements Cloud Native (Docker, Kubernetes, CI/CD). J'ai plus de 3 ans d'expérience dans le travail à distance avec des startups du monde entier.",
+    "Développeur Frontend passionné avec plus de 10 ans d’expérience, spécialisé dans l’écosystème React pour le web et React Native pour le mobile. Je conçois des interfaces performantes, fluides et orientées utilisateur, tout en intégrant les bonnes pratiques d’architecture logicielle. Ma polyvalence me permet également d’intervenir efficacement sur des projets backend en Python (FastAPI, Django) et Java, ainsi que sur des environnements Cloud Native (Docker, Kubernetes, CI/CD). J'ai plus de 3 ans d'expérience dans le travail à distance avec des startups du monde entier.",
   avatarUrl: "https://avatars.githubusercontent.com/u/11094772?v=4",
-  personalWebsiteUrl: "https://hamswaldenkv.vercel.app",
+  personalWebsiteUrl: "https://hamswaldenkv-cv.vercel.app",
   contact: {
     email: "hamswaldenkv@gmail.com",
     tel: "+243811273503",
@@ -73,7 +73,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Hotêl de ville de Kinshasa",
-      link: "https://smart-trans.online",
+      link: "https://taxe-pay.online",
       badges: ["Freelance"],
       title: "Prestaire des services digitaux",
       logo: ParabolLogo,
@@ -85,8 +85,8 @@ export const RESUME_DATA = {
     {
       company: "Gouvernement provincial du Kinshasa",
       link: "https://smart-trans.online",
-      badges: [],
-      title: "Lead IT",
+      badges: ["Freelance"],
+      title: "Prestaire des services digitaux",
       logo: ParabolLogo,
       start: "2021",
       end: "2025",
@@ -103,17 +103,6 @@ export const RESUME_DATA = {
       end: "2024",
       description:
         "Fournit le plateforme digitale pour le suivi des ventes et performances des commerciaux et revendeurs de la Marsavco",
-    },
-    {
-      company: "Hotêl de ville de Kinshasa",
-      link: "https://taxe-pay.online",
-      badges: ["Freelance"],
-      title: "Prestaire des services digitaux",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2025",
-      description:
-        "Mise en place du système de collecte des recettes de taxes des parkings des biens et parkings de passagers",
     },
     {
       company: "LinksAllen → JobParc.com",
@@ -193,6 +182,7 @@ export const RESUME_DATA = {
         "Next.js",
         "Android",
         "iOS",
+        "JAVA",
         "Node js",
       ],
       description: "Plateforme de streaming vidéo VOD et Live",
@@ -248,6 +238,7 @@ export const RESUME_DATA = {
         "Next.js",
         "PostgreSql",
         "Android",
+        "JAVA",
         "Python"
       ],
       description:
